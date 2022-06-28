@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+    display: flex;
+}
+
+#tablero {
+    width: 450px;
+    display: grid;
+    margin: auto;
+}
+
+.cuadro {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.cuadrosOut {
+    background-color: blue;
+    border: 1px solid blue;
+
+}
+
+.comecocos {
+    width: 25px;
+    height: 25px;
+    background-image: url(PacmanAbierto01.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.comecocosCerrado {
+    width: 25px;
+    height: 25px;
+    background-image: url(PacmanCerrado01.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.caja {
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+    background-image: url(Punto.png);
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: 50% 50%;
+}
+
+.cajaNegra {
+    min-width: 25px;
+    min-height: 25px;
+    background-color: black;
+}
+
+.comecocosDerecha {
+    width: 25px;
+    height: 25px;
+    background-image: url(PacmanAbierto01Derecha.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.comecocosIzquierda {
+    width: 25px;
+    height: 25px;
+    background-image: url(PacmanAbierto01Izquierda.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.comecocosArriba {
+    width: 25px;
+    height: 25px;
+    background-image: url(PacmanAbierto01Arriba.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.comecocosAbajo {
+    width: 25px;
+    height: 25px;
+    background-image: url(PacmanAbierto01Abajo.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/*Mensaje*/
+#mensaje {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 450px;
+    height: 200px;
+    border: 10px solid red;
+    border-radius: 50px;
+    background-color: black;
+    display: none;
+}
+
+.prueba {
+    width: 25px;
+    height: 25px;
+    border: 1px solid red;
+    background-image: url(PacmanAbierto01Arriba.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/*Fantasmas*/
+.fantasmaNaranja01{
+    background-image: url(fanatasmaNaranja01.png);
+    background-position: 50% 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+.fantasmaNaranja02{
+    background-image: url(fanatasmaNaranja02.png);
+    background-position: 50% 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+.fantasmaRojo01{
+    background-image: url(fanatasmaRojo01.png);
+    background-position: 50% 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+.fantasmaRojo02{
+    background-image: url(fanatasmaRojo02.png);
+    background-position: 50% 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+.fantasmaAzul01{
+    background-image: url(fanatasmaAzul01.png);
+    background-position: 50% 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+.fantasmaAzul02{
+    background-image: url(fanatasmaAzul02.png);
+    background-position: 50% 50%;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
