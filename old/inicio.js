@@ -1,0 +1,3 @@
+function reiniciarPartida(){
+    location.reload();
+}

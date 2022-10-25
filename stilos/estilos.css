@@ -1,0 +1,121 @@
+body {
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#tablero {
+    width: auto;
+    display: grid;
+    border: 1px solid red;
+}
+
+.cuadro {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.cuadrosOut {
+    background-color: blue;
+    border: 1px solid blue;
+
+}
+
+.comecocos {
+    width: 25px;
+    height: 25px;
+    background-image: url(../imagenes/PacmanAbierto01.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.comecocosCerrado {
+    width: 25px;
+    height: 25px;
+    background-image: url(../imagenes/PacmanCerrado01.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.caja {
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+    background-image: url(../imagenes/Punto.png );
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: 50% 50%;
+}
+
+.cajaNegra {
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+    background-color: black;
+}
+
+.comecocosDerecha {
+    width: 25px;
+    height: 25px;
+    background-image: url(../imagenes/PacmanAbierto01Derecha.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.comecocosIzquierda {
+    width: 25px;
+    height: 25px;
+    background-image: url(../imagenes/PacmanAbierto01Izquierda.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.comecocosArriba {
+    width: 25px;
+    height: 25px;
+    background-image: url(../imagenes/PacmanAbierto01Arriba.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.comecocosAbajo {
+    width: 25px;
+    height: 25px;
+    background-image: url(../imagenes/PacmanAbierto01Abajo.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+
+/*Mensaje*/
+#mensaje {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 450px;
+    height: auto;
+    border: 10px solid red;
+    border-radius: 50px;
+    background-color: black;
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.btnCerrar_conecta{
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    border: 1px solid red
+}
